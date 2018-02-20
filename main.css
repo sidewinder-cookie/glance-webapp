@@ -45,8 +45,30 @@ body {
 }
 
 #addnote_page {
-    /* display: none; */
-    
+}
+
+#addnote_page table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type=text], textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid silver;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+textarea {
+    min-height: 48px;
 }
 
 .page {
@@ -63,5 +85,13 @@ body {
     #floating-add-button {
         bottom: 1rem;
         right: 1rem;
+    }
+
+    td {
+        display: block;
+    }
+
+    input, textarea {
+        max-width: 80%;
     }
 }
