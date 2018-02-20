@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #212121;
+    color: white;
+}
+
+#navbar {
+    background: #0277BD;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#floating-add-button {
+    background: #0277BD;
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: white;
+    font-size: 2rem;
+    transition: 200ms background;
+}
+
+#floating-add-button:hover {
+    background: #039BE5;
+}
+
+#navbar .content {
+    display: inline-block;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+}
+
+#page {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    padding: 1rem;
+}
