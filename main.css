@@ -12,6 +12,7 @@ body {
     color: white;
     padding: 1rem;
     text-align: center;
+    box-shadow: 0 0 1rem black;
 }
 
 #floating-add-button {
@@ -27,6 +28,7 @@ body {
     color: white;
     font-size: 2rem;
     transition: 200ms background;
+    box-shadow: 0 0 1rem black;
 }
 
 #floating-add-button:hover {
@@ -50,4 +52,11 @@ body {
     text-align: left;
     position: relative;
     padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #floating-add-button {
+        bottom: 1rem;
+        right: 1rem;
+    }
 }
