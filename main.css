@@ -51,7 +51,7 @@ body {
     display: inline-block;
     text-align: left;
     position: relative;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 @media only screen and (max-width: 768px) {
